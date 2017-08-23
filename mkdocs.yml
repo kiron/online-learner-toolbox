@@ -1,0 +1,77 @@
+site_name: Kiron Toolbox
+copyright: Copyright © Kiron
+
+pages:
+  - About: index.md
+  - Tools by chatpers:
+    - 1 To Be A Learner: ToBeALearnerIntro.md
+    - 2 Your Learning Space: YourLearningSpaceIntro.md
+    - 3 Approaching Effectively: ApproachingEffectivelyIntro.md
+    - 4 Learn Right: LearnRightIntro.md
+  - Useful apps:
+    - All apps: AllApps.md
+    - Notetaking apps: NotetakingApps.md
+    - Mind mapping apps: MindmappingApps.md
+    - Time management apps: TimeManagementApps.md
+    - Focusing apps: FocusingApps.md
+    - Study place apps: StudyplaceApps.md
+    - Calendar apps: Calendar.md
+  - Useful tools and methods:
+    - Blended learning: BlendedLearning.md
+    - Anchored learning: AnchoredLearning.md
+    - Growth VS fixed mindset: GrowthVSFixedMindset.md
+    - Chunking: Chunking.md
+    - Interleaving: Interleaving.md
+    - Distributed practice: DistributedPractice.md
+    - Note-taking: NoteTaking.md
+    - Study music: ListeningToMusic.md
+    - Taking breaks: TakingBreaks.md
+    - Study sessions: ChecklistSession.md
+    - Preparing a course: ChecklistNextCouse.md
+    - Overcoming procrastination: Procrastination.md
+    - Study community: YourStudyCommunity.md
+    - Setting goals:
+      - S.M.A.R.T goal method: GoalSettingSMART.md
+      - H.A.R.D. goal method: GoalSettingHARD.md
+      - W.O.O.P method: GoalSettingWOOP.md
+    - Kiron services: KironServices.md
+  - Common terms: IntroductionTerms.md
+  - Roles of a teacher: RollsTeacher.md
+
+theme: 'material'
+theme_dir: 'theme_tweaks'
+
+extra:
+  palette:
+    accent: 'red'
+
+markdown_extensions:
+  - admonition
+  - codehilite
+  - footnotes
+  - meta
+  - toc:
+      permalink: True
+  - markdown_include.include:
+      base_path: docs
+  - pymdownx.arithmatex
+  - pymdownx.betterem(smart_enable=all)
+  - pymdownx.caret
+  - pymdownx.critic
+  - pymdownx.emoji:
+      emoji_generator: !!python/name:pymdownx.emoji.to_svg
+  - pymdownx.inlinehilite
+  - pymdownx.magiclink
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.superfences
+  - pymdownx.tasklist(custom_checkbox=true)
+  - pymdownx.tilde
+
+extra_css:
+  - 'stylesheets/extra.css'
+
+
+google_analytics:
+  - 'UA-85199466-2'
+  - 'auto'
