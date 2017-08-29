@@ -71,7 +71,5 @@ markdown_extensions:
 extra_css:
   - 'stylesheets/extra.css'
 
-
-google_analytics:
-  - 'UA-85199466-2'
-  - 'auto'
+extra_javascript:
+  - 'stylesheets/extra.js'
