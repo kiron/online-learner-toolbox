@@ -13,7 +13,7 @@ When you are ready to continue with the following procedure:
 7. Rund `mkdocs build` to build the Toolbox with the new content locally.
 8. Push your changes to the repository.
 
-###Universal Google Analytics tracking:
+### Universal Google Analytics tracking
 
 The toolbox is equipped with a Universal Google Analytics tracking code for cross side tracking. It's located in the `~/online-learner-toolbox/mkdocs-material/material/base.html` file. 
 
