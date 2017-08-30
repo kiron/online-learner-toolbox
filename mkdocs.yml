@@ -39,7 +39,7 @@ pages:
   - Roles of a teacher: RollsTeacher.md
 
 theme: 'material'
-theme_dir: 'theme_tweaks'
+theme_dir: 'mkdocs-material/material'
 
 extra:
   palette:
@@ -70,6 +70,3 @@ markdown_extensions:
 
 extra_css:
   - 'stylesheets/extra.css'
-
-extra_javascript:
-  - 'stylesheets/extra.js'
