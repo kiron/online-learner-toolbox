@@ -4,14 +4,16 @@ The content of this Toolbox can be edited locally or directly here on GitHub wit
 
 When you are ready to continue with the following procedure:
 
-1. Install mkdocs as described [here](http://www.mkdocs.org/#installation).
-2. Install the material theme for mkdocs has described [here](http://squidfunk.github.io/mkdocs-material/getting-started/).
-3. Clone this repository to your local computer.
-4. Open your terminal and navigate into the `online-learner-toolbox`.
-5. Run `mkdocs serve` to view the Toolbox locally.
-6. Edit the `.md`files within `.../docs` to change the content of the Toolbox.
-7. Rund `mkdocs build` to build the Toolbox with the new content locally.
-8. Push your changes to the repository.
+1. Install mkdocs as described by running `pip install mkdocs && mkdocs --version`. The last line of the output should look something like this: `mkdocs, version 0.16.3`. A detailed explanation on how to install MkDocs can be found [here](http://www.mkdocs.org/#installation).
+2. Install the material theme for MkDocs by running `pip install mkdocs-material`. the last output line should like something like this: `Successfully installed mkdocs-material-1.9.0 pygments-2.2.0`. A detailed explanation on how to install Material for MkDocs can be found [here](http://squidfunk.github.io/mkdocs-material/getting-started/).
+3. Install the Python-Markdown extension `markdown-include` by running `pip install markdown-include`.
+4. Install  PyMdown extensions by running `pip install pymdown-extensions`.
+5. Clone this repository to your local computer.
+6. Open your terminal and navigate into the `online-learner-toolbox`.
+7. Run `mkdocs serve` to view the Toolbox locally.
+8. Edit the `.md`files within `.../docs` to change the content of the Toolbox.
+9. Rund `mkdocs build` to build the Toolbox with the new content locally.
+10. Push your changes to the repository.
 
 ### Universal Google Analytics tracking
 
@@ -41,3 +43,13 @@ The toolbox is equipped with a Universal Google Analytics tracking code for cros
             ga('send', 'pageview');
 </script>
 ```
+
+### Troubleshoothing
+
+Python and pip are sometimes a fucking nightmare on OSX. In case you are running into any kind of trouble with those two, stick to the following procedure: 
+
+1. Uninstall/Remove Python 2.7 dependencies by following this procedure: [https://stackoverflow.com/a/3819829](https://stackoverflow.com/a/3819829)
+2. Install Python 3.x by downloading it from python.org [python.org](https://www.python.org/downloads/)
+3. Upgrade pip to the latest version by running `sudo pip install --upgrade pip`.
+4. Follow the installation procedure above again.
+5. Be happy :boom:
