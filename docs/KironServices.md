@@ -1,7 +1,7 @@
 !!! summary
 	As you adjust to being a student it is common to face difficulties in managing stress, timing, and outside responsibilities. Kiron wants to help ease that transition into student life with various Krion Services which are all overed to you for {++free++}.
 
-####Direct Academics
+####Live Tutorials
 
 Direct Academics offers you module-based tutorials which supplement the MOOCs in a module with interactive live-teaching sessions. Here you can ask questions about the difficult parts in your regular courses and receive valuable additional input.
 
